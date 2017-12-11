@@ -190,7 +190,7 @@
     }
 }
 - (void)adjustTitleLabel:(NSInteger)targetIndex {
-    if (targetIndex == self.currentIndex)  return;
+//     if (targetIndex == self.currentIndex)  return;
     NSLog(@"%zd %zd", targetIndex, self.currentIndex);
     // 1.取出Label
     UILabel *targetLabel = self.titleLabels[targetIndex];
